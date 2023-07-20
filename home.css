@@ -1,29 +1,38 @@
-* {box-sizing: border-box; margin: 0; padding: 0; background-color: #FFE569;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #7895CB;
+}
 
-#start{
-    color: #B70404;
+#start {
+    color: black;
     width: 50%;
     margin: auto;
-    /* background-color: aquamarine; */
 }
-#text{
+
+#text {
     text-align: center;
     margin-top: 30vh;
     font-size: 1.5rem;
 }
-p{
+
+p {
     margin-top: 2%;
 }
-h2{
+
+h2 {
     font-size: 3rem;
 }
-#buttons{
+
+#buttons {
     margin-top: 5%;
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-button{
+
+button {
     font-size: 1.2rem;
     padding: 10px;
     background-color: black;
