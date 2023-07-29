@@ -39,3 +39,12 @@ button {
     color: white;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: 1.7rem;
+    }
+    button {
+        font-size: 0.8rem;
+    }
+}

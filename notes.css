@@ -164,3 +164,21 @@ footer p {
   font-size: 1.3rem;
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .c {
+    width: 250px;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+  #navbar {
+    font-size: 1rem;
+  }
+  #navbar button {
+    font-size: 0.8rem;
+  }
+  .input {
+    width: 100%;
+  }
+}
